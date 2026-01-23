@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. HTML & Body setup */
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
+
+/* 3. Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* 4. Links & Buttons */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* 5. Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 6. Lists */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 7. Forms & Inputs */
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff; /* focus color */
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+/* 8. Utility Classes */
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow: hidden; /* শুধু container-level overflow */
+}
+.text-center {
+  text-align: center;
+}
+.hidden {
+  display: none !important;
+}
+
+/* 9. Responsive Images & Media */
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* 10. Accessibility helpers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

@@ -1,0 +1,38 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 50px auto;
+}
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.footerfirstTop {
+  width: 45%;
+}
+.footerlastContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footerlastContent p {
+  font-size: 0.8rem;
+  color: #858484;
+}
+.footerBottom {
+  background-color: rgb(252, 254, 255);
+}
+.footerBottom strong {
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 768px) {
+  .footerTop {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footerfirstTop {
+    width: 100%;
+  }
+}
