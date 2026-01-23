@@ -34,7 +34,7 @@ export default function ProductCard({ product, buttonText = 'Buy Now' }) {
           <p>{product.desc}</p>
           <div className="PriceContainerShow_CARD">
             <p id="Price__firstprice">Price: ৳{product.price}</p>
-            <p id="Beforprice__SHOW">{product.Beforprice}</p>
+            <p id="Beforprice__SHOW">৳{product.Beforprice}</p>
           </div>
         </div>
         <div className="price-BUTTON">
