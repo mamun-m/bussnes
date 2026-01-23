@@ -7,7 +7,7 @@ export const slides = [
       'https://res.cloudinary.com/dlr6fz0u7/image/upload/v1769081325/1760856536_H884ef0f42ee64e3baadf01913fb45c63W_d1ydg5.jpg',
     title: 'হোম অ্যাপ্লায়েন্স বিক্রয়',
     subtitle: 'আপগ্রেড করুন',
-    cta: '/product',
+    cta: '/product/product-4',
     ctaText: 'এখনই কিনুন',
   },
   {
@@ -16,7 +16,7 @@ export const slides = [
       'https://res.cloudinary.com/dlr6fz0u7/image/upload/v1769071528/1766212172_1765975128_1763569255_1751634284_Magic-Tisusu-Ads-05_ee7n1y.jpg',
     title: ' ৫০% ছাড়',
     subtitle: 'সীমিত সময়ের অফার!',
-    cta: '/product',
+    cta: '/product/product-20',
     ctaText: 'এখনই কিনুন',
   },
   {

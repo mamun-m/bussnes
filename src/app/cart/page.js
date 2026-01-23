@@ -90,13 +90,13 @@ export default function Page() {
                   </p>
                 </div>
               </div>
-              <div>${(item.price ?? 0).toFixed(2)}</div>
+              <div>৳{(item.price ?? 0).toFixed(2)}</div>
               <div className="quantity-controls">
                 <button onClick={() => decrementQuantity(item.productId)}>-</button>
                 <span>{item.quantity}</span>
                 <button onClick={() => incrementQuantity(item.productId)}>+</button>
               </div>
-              <div>${((item.price ?? 0) * (item.quantity ?? 1)).toFixed(2)}</div>
+              <div>৳{((item.price ?? 0) * (item.quantity ?? 1)).toFixed(2)}</div>
             </div>
           ))}
         </div>
@@ -161,10 +161,10 @@ export default function Page() {
         {/* Summary Card */}
         <div className="summary-card">
           <p>
-            মোট ({cartItems.length} টি পণ্য): ${subtotal.toFixed(2)}
+            মোট ({cartItems.length} টি পণ্য): ৳{subtotal.toFixed(2)}
           </p>
-          <p>ডেলিভারি ফি: ${deliveryFee.toFixed(2)}</p>
-          <p>সর্বমোট মূল্য: ${totalPrice.toFixed(2)}</p>
+          <p>ডেলিভারি ফি: ৳{deliveryFee.toFixed(2)}</p>
+          <p>সর্বমোট মূল্য: ৳{totalPrice.toFixed(2)}</p>
           <button className="checkout-btn" onClick={handleCheckout} disabled={!selectedAddress}>
             চেকআউট করুন
           </button>

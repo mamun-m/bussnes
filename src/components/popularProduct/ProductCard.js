@@ -33,7 +33,7 @@ export default function ProductCard({ product, buttonText = 'Buy Now' }) {
           <h2>{product.name.slice(0, 30)}</h2>
           <p>{product.desc}</p>
           <div className="PriceContainerShow_CARD">
-            <p id="Price__firstprice">Price: ${product.price}</p>
+            <p id="Price__firstprice">Price: ৳{product.price}</p>
             <p id="Beforprice__SHOW">{product.Beforprice}</p>
           </div>
         </div>
