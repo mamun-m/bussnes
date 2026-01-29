@@ -89,7 +89,7 @@ p {
 }
 #BeforePriceIndescription {
   color: red;
-  text-decoration: overline;
+  text-decoration: line-through;
 }
 #descriptionRealPrice {
   color: green;
