@@ -108,7 +108,7 @@
   font-weight: bold;
   font-size: 18px;
   color: red;
-  text-decoration: underline;
+  text-decoration: line-through;
 }
 
 @media screen and (max-width: 768px) {
