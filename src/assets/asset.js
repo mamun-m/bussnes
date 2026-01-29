@@ -1,4 +1,5 @@
 import rating from './rating.png';
+import logo from './logo.jpeg';
 
 export const slides = [
   {
@@ -468,3 +469,7 @@ export const popular__product = [
     addtocart: 'Add to Cart',
   },
 ];
+
+export const logos = {
+  logo,
+};

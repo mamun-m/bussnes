@@ -102,11 +102,12 @@
 #Price__firstprice {
   font-weight: bold;
   font-size: 22px;
-  color: red;
+  color: green;
 }
 #Beforprice__SHOW {
   font-weight: bold;
   font-size: 18px;
+  color: red;
 }
 
 @media screen and (max-width: 768px) {

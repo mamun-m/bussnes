@@ -3,6 +3,9 @@ import { useState } from 'react';
 import Link from 'next/link';
 import './navbar.css';
 import { UsersContext } from '@/context/UserContext';
+import { logos } from '@/assets/asset';
+import Image from 'next/image';
+logos;
 export default function Navbar() {
   const [isOpen, setisOpen] = useState(false);
   const { cartItems } = UsersContext();
@@ -11,7 +14,16 @@ export default function Navbar() {
     <div className="navbar">
       <div className="container">
         <div className="logo">
-          <Link href="/">OrderNow</Link>
+          <Link href="/">
+            <Image
+              src={logos.logo}
+              alt="Website Logo"
+              width={120}
+              height={40}
+              priority
+              className="object-contain"
+            />
+          </Link>
         </div>
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li>
