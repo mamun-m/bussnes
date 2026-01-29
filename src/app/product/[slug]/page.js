@@ -46,8 +46,8 @@ export default function Page() {
           <Image src={product.rating} alt={product.rating} width={100} height={100} />
           <p>{product.ratingDes}</p>
           <div className="ProductPrice__Des">
-            <strong>Price: ৳{product.price}</strong>
-            <p>৳ : {product.Beforprice} </p>
+            <strong id="descriptionRealPrice">Price: ৳{product.price}</strong>
+            <p id="BeforePriceIndescription">৳ : {product.Beforprice} </p>
           </div>
           <hr className="hrproduct" />
           <br />

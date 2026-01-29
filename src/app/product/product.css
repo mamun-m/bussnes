@@ -87,7 +87,14 @@ p {
   font-weight: bold;
   font-size: 22px;
 }
-
+#BeforePriceIndescription {
+  color: red;
+  text-decoration: underline;
+}
+#descriptionRealPrice {
+  color: green;
+  font-weight: bold;
+}
 .productsButton button:first-child:active,
 button:last-child:active {
   transform: scale(1.1);
